@@ -1,0 +1,168 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  width: 100%;
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/tic-tac-toe.png");
+  background-repeat: repeat;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #808080;
+}
+
+a:hover {
+  color: #017ae1;
+}
+
+section {
+  width: 960px;
+  position: relative;
+  float: left;
+  background-color: #ffffff;
+  padding: 1%;
+}
+
+/* Classes & IDs */
+
+.logo {
+  margin-left: 15%;
+  margin-right: 10%;
+  display: inline;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #ffffff;
+}
+
+#logo-link {
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-right: 4%;
+  padding-top: 2%;
+  padding-bottom: 1.36%;
+  background-color: #017ae1;
+  background-position: center;
+  color: #ffffff;
+}
+
+.topbar {
+  width: 100%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ecebeb;
+  border-bottom: 2px;
+  /* opacity: 0.8; */
+  border-style: solid;
+  border-color: #cccccc;
+}
+
+
+.active-link {
+  color: #017ae1;
+  font-weight: bold;
+}
+
+.main-container {
+  position: absolute;
+  width: 960px;
+  margin-left: 15%;
+  margin-top: 2%;
+  float: left;
+}
+
+.section-header {
+  padding-bottom: 1%;
+  margin-bottom: 2%;
+  border-bottom: 2px;
+  border-style: solid;
+  border-color: #ddd;
+}
+
+#bio-image {
+  float: left;
+  width: 25%;
+  margin-right: 3%;
+  margin-bottom: 5%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  padding: 1.5%;
+  width: 100%;
+  text-align: center;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  background-color: #666666;
+}
+
+#footerlink {
+  color: #fff;
+}
+
+/* Navigation & Typography */
+
+.navigation {
+  display: inline-block;
+  padding-left: 20%;
+  color: #808080;
+}
+
+ol.nav-links {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+li {
+  margin-left: 10px;
+  margin-right: 10px;
+  list-style: none;
+  display: inline-block;
+}
+
+p {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 2em;
+  color: #808080;
+}
+
+h1 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: #017ae1;
+}
+
+/* Form */
+
+#contact-form{
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 2em;
+  color: #808080;
+}
+
+input {
+  border: 1px solid;
+  border-color: #ccc;
+  border-radius: 2px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #017ae1;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+}
