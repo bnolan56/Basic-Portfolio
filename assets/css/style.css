@@ -1,8 +1,10 @@
 * {
-  margin: 0 auto;
+  margin: auto;
+  overflow-x: hidden;
 }
 
 body {
+  margin: auto;
   width: 100%;
   background: url("https://www.toptal.com/designers/subtlepatterns/patterns/tic-tac-toe.png");
   background-repeat: repeat;
@@ -19,18 +21,25 @@ a:hover {
 }
 
 section {
-  width: 960px;
   position: relative;
   float: left;
   background-color: #ffffff;
   padding: 1%;
 }
 
+header {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ecebeb;
+  border-bottom: 2px;
+  /* opacity: 0.8; */
+  border-style: solid;
+  border-color: #cccccc;}
+
 /* Classes & IDs */
 
 .logo {
-  margin-left: 15%;
-  margin-right: 10%;
   display: inline;
   font-size: 36px;
   font-weight: bold;
@@ -50,16 +59,17 @@ section {
 }
 
 .topbar {
-  width: 100%;
+  margin: auto;
+  width: 960px;
   padding-top: 1.5%;
-  padding-bottom: 1.5%;
-  background-position: center;
+  padding-bottom: 1%;
+  /* background-position: center;
   background-repeat: no-repeat;
   background-color: #ecebeb;
   border-bottom: 2px;
   /* opacity: 0.8; */
   border-style: solid;
-  border-color: #cccccc;
+  border-color: #cccccc; */
 }
 
 
@@ -69,7 +79,7 @@ section {
 }
 
 .main-container {
-  position: absolute;
+  margin: auto;
   width: 960px;
   margin-left: 15%;
   margin-top: 2%;
@@ -111,6 +121,7 @@ section {
 
 .navigation {
   display: inline-block;
+  margin-left: 22%;
   padding-left: 17%;
   color: #808080;
 }
