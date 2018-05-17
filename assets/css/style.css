@@ -4,7 +4,7 @@
 }
 
 body {
-  margin: auto;
+  margin: 0 auto;
   width: 100%;
   background: url("https://www.toptal.com/designers/subtlepatterns/patterns/tic-tac-toe.png");
   background-repeat: repeat;
@@ -63,7 +63,7 @@ header {
 }
 
 .topbar {
-  margin: auto;
+  margin: 0 auto;
   overflow: hidden;
   width: 960px;
   padding-top: 1.5%;
@@ -80,7 +80,7 @@ header {
 
 .main-container {
   overflow-x: hidden;
-  margin: auto;
+  margin: 0 auto;
   height: 960px;
   max-width: 960px;
   margin-top: 2%;
@@ -190,6 +190,9 @@ input {
 
 textarea {
   resize: none;
+  border: 1px solid;
+  border-color: #ccc;
+  border-radius: 2px;
 }
 
 input[value] {
@@ -201,4 +204,12 @@ input[type=button], input[type=submit], input[type=reset] {
     border: none;
     color: white;
     padding: 10px 22px;
+}
+
+input[type=text] {
+  width: 40.5%;
+}
+
+input[type=submit] {
+  width: 10%;
 }
