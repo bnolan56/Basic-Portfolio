@@ -28,6 +28,10 @@ section {
   padding: 1.5%;
 }
 
+article {
+  width: 70%;
+}
+
 header {
   position: relative;
   z-index: 1;
@@ -75,6 +79,7 @@ header {
 }
 
 .main-container {
+  overflow-x: hidden;
   margin: auto;
   height: 960px;
   width: 960px;
@@ -92,7 +97,7 @@ header {
 #bio-image {
   float: left;
   width: 25%;
-  margin-right: 3%;
+  margin-right: 2%;
   margin-bottom: 5%;
 }
 
@@ -176,9 +181,18 @@ h1 {
 }
 
 input {
+  margin-bottom: 1%;
   border: 1px solid;
   border-color: #ccc;
   border-radius: 2px;
+}
+
+textarea {
+  resize: none;
+}
+
+input[value] {
+  color: #ccc;
 }
 
 input[type=button], input[type=submit], input[type=reset] {
