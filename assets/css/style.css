@@ -1,6 +1,6 @@
 * {
   overflow-x: hidden;
-  /* overflow: hidden; */
+  overflow: auto;
 }
 
 body {
