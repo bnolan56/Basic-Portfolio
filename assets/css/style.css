@@ -21,9 +21,8 @@ a:hover {
 }
 
 section {
-  /* width: 960px; */
+  max-width: 960px;
   position: relative;
-  float: left;
   background-color: #ffffff;
   padding: 1.5%;
 }
@@ -83,8 +82,9 @@ header {
   overflow-x: hidden;
   margin: auto;
   height: 960px;
-  width: 960px;
+  max-width: 960px;
   margin-top: 2%;
+  width: 100%;
 }
 
 .section-header {
