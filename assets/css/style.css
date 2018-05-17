@@ -21,7 +21,7 @@ a:hover {
 }
 
 section {
-  width: 960px;
+  /* width: 960px; */
   position: relative;
   float: left;
   background-color: #ffffff;
