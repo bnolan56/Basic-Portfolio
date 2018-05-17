@@ -65,6 +65,7 @@ header {
 
 .topbar {
   margin: auto;
+  overflow: hidden;
   width: 960px;
   padding-top: 1.5%;
   padding-bottom: 1%;
